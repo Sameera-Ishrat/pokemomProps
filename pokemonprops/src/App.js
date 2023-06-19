@@ -28,7 +28,7 @@ fetchPokemon()
   },[])
   return (
     <div className="App">
-      <h1>Search Pokemon Data</h1>
+      <h1>Search Pokemon Data - Using Context API</h1>
       {/* <input 
       type="text"
       placeholder="Search for pokemon here..."
