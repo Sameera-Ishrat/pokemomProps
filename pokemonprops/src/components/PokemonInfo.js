@@ -6,8 +6,8 @@ const PokemonInfo = ({name,base}) => {
    <tbody>
 {Object.keys(base).map((key) => (
     <tr key={key}>
-     <td>{key}</td>
-     <td>{base[key]}</td>
+     <td className='margin'>{key}</td>
+     <td className='margin'>{base[key]}</td>
     </tr>
 ))}
    </tbody>
