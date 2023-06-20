@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import PokemonContext from './PokemonContext'
 
-const Filter = ({filter,setFilter}) => {
+const Filter = () => {
+  const {filter,setFilter} = useContext(PokemonContext)
   return (
    <form className='form'>
     <input 
