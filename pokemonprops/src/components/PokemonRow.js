@@ -2,7 +2,6 @@ import React from 'react'
 
 const PokemonRow = ({pokemon,onSelect}) => {
     const selectHandler = () => {
-        console.log(onSelect(pokemon))
         onSelect(pokemon)
     }
   return ( 

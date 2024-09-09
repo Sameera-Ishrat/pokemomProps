@@ -3,6 +3,7 @@ import PokemonRow from "./components/PokemonRow";
 import Filter from "./components/Filter";
 import PokemonInfo from "./components/PokemonInfo";
 
+
 function App() {
   const [pokemon,setPokemon] = useState([]);
   const [filter,setFilter] = useState('');
@@ -68,6 +69,7 @@ fetchPokemon()
         ))}
        </tbody>
       </table>
+    
       <div>
         {selectedItem && <PokemonInfo {...selectedItem} />}
       </div>
